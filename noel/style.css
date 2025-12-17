@@ -438,7 +438,7 @@ section{
     cursor: pointer;
     animation: boxGift 5s forwards;
     z-index: 100000000;
-    animation-delay: 15s;
+    animation-delay: 3s;
 }
 @keyframes boxGift{
     0%{
