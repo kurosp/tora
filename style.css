@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background: black;
+}
+div {
+  color:white;
+  text-align:center;
+}
