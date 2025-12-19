@@ -87,7 +87,7 @@ var SantaGame = {
 				gameScore = 0; 
 				this.currentFrame = 0;
 				this.particleInterval = 2 * 60;
-				this.gameSpeed = 550;
+				this.gameSpeed = 500;
 				this.isGameOver = false;
 				this.game.physics.startSystem(Phaser.Physics.ARCADE);
 
@@ -154,7 +154,7 @@ var SantaGame = {
 
 					// Auto-play button (helps weaker players reach 300 points)
 					this.autoPlay = false;
-					this.autoTarget = 300;
+					this.autoTarget = 500;
 
 					this.didRedirect = false;
 					this.baseGravity = 2500;
