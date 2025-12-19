@@ -87,7 +87,7 @@ var SantaGame = {
 				gameScore = 0; 
 				this.currentFrame = 0;
 				this.particleInterval = 2 * 60;
-				this.gameSpeed = 780;
+				this.gameSpeed = 550;
 				this.isGameOver = false;
 				this.game.physics.startSystem(Phaser.Physics.ARCADE);
 
